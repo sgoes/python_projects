@@ -46,6 +46,4 @@ medio()
 medio()
 final()
 
-final()
-final()
 
