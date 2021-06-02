@@ -10,7 +10,6 @@ def turn_right():
     
 def start():
     move()
-    build_wall()
     turn_left()
     move()
     turn_right()
@@ -20,19 +19,33 @@ def start():
     turn_left()
     move()
 
+def medio():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+    move()
+    
 def final():
-    build_wall()
     turn_left()
     move()
     turn_right()
     move()
     turn_right()
     move()
-    turn_left()
-    move()
+    
+    
 
 start()
+medio()
+medio()
+medio()
+medio()
 final()
+
 final()
 final()
 
