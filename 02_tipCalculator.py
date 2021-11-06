@@ -12,8 +12,12 @@ total_bill = bill + total_tip_amount
 
 bill_per_person = total_bill / people
 
-final_amounth = round(bill_per_person, 4)
 
+#Para arredondar o total apenas com duas casas decimais
+final_amounth = round(bill_per_person, 2)
+
+
+#Quando o resultado acaba apenas com uma casa decimal e queremos acresentar a segunda na mesma, ou seja, queremos acrescentar um 0
 final_amounth = "{:.2f}".format(bill_per_person)
 
 print(f"Each person should pay {final_amounth}")
