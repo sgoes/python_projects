@@ -3,7 +3,10 @@ while True:
     num_1 = input('Digite um número: ')
     num_2 = input('Digite outro número: ')
     operador = input('Digite um operador: ')
-   
+    sair = input('Deseja sair? [s]im ou [n]ao: ')
+
+    if sair == 's':
+        break
     
     if not num_1.isnumeric() or not num_2.isnumeric():
         print('Precisa de digitar um número inteiro.')
